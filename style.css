@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif; /* font */
+    background-color: #FAF9F6; /* backgroud */
+    color: #141414; /* text */
+}
+
+body {
+}
+
+#header {
+    display: grid;
+    place-items: center;
+    margin-bottom: 30px;
+}
+.header-title h1 {
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.header-title h1 span {
+    color: #c2a0e8;
+}
+.header-description {
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+.header-description a {
+    color: #c2a0e8;
+}
+.flowers {
+    width: 550px;
+    margin-bottom: 60px;
+}
+.buttons-container {
+    display: flex; 
+    justify-content: center; /* centers buttons horizontally */
+    align-items: center; /* centers buttons vertically */
+}
+.button {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-right: 40px;
+    margin-bottom: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-image 0.3s ease;
+    padding: 0; 
+}
+.button:last-child {
+    margin-right: 0; /* no right margin on the last button */
+}
+.button:hover {
+    transform: scale(1.1);
+}
+.github {
+    background-image: url("assets/buttons/github.png");
+}
+.github:hover {
+    background-image: url("assets/buttons/github-hover.png");
+}
+.linkedin {
+    background-image: url("assets/buttons/linkedin.png");
+}
+.linkedin:hover {
+    background-image: url("assets/buttons/linkedin-hover.png");
+}
+.email {
+    background-image: url("assets/buttons/email.png");
+}
+.email:hover {
+    background-image: url("assets/buttons/email-hover.png");
+}
+.bounce-arrow {
+    background: none;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    animation: bounce 2.5s infinite;
+}
+  
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+}
+  
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 30px 15px;
+} 
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    color: #93bea4;
+}
+
+#projects {
+    background-color: #141414; /* backgroud */
+}
+
+#footer {
+    background-color: #141414; /* backgroud */
+    display: grid;
+    place-items: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.footer-title h1 {
+    background-color: #141414; /* backgroud */
+    color: #FAF9F6; /* text */
+    font-weight: 400;
+    font-size: 18px;
+}
+.footer-title h1 span {
+    background-color: #141414; /* backgroud */
+    color: #FAF9F6; /* text */
+    color: #c2a0e8;
+}
