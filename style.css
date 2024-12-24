@@ -120,14 +120,16 @@ nav ul li a:hover {
     display: flex; 
     justify-content: center; 
     align-items: center;
+    flex-direction: column;
 }
-.byte-buddy {
+.byte-buddy, .jagame {
     background-color: #141414; /* backgroud */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 70px;
     margin-top: 70px;
+    margin-bottom: 20px;
 }
 .video-container {
     flex: 1;
@@ -138,7 +140,7 @@ nav ul li a:hover {
     animation: glow 5s infinite alternate;
     margin-top: 0px;
 }
-.byte-buddy video {
+.video-container video {
     border-radius: 10px; /* rounded corners */
 }
 .text-container {
