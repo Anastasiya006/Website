@@ -122,7 +122,7 @@ nav ul li a:hover {
     align-items: center;
     flex-direction: column;
 }
-.byte-buddy, .jagame, .pokepop {
+.byte-buddy, .jagame, .pokepop, .heaven-and-hell {
     background-color: #141414; /* backgroud */
     display: flex;
     justify-content: center;
