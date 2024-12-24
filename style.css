@@ -122,7 +122,7 @@ nav ul li a:hover {
     align-items: center;
     flex-direction: column;
 }
-.byte-buddy, .jagame {
+.byte-buddy, .jagame, .pokepop {
     background-color: #141414; /* backgroud */
     display: flex;
     justify-content: center;
@@ -138,7 +138,6 @@ nav ul li a:hover {
     padding: 10px; /* add spacing around the video */
     border-radius: 10px; /* rounded corners */
     animation: glow 5s infinite alternate;
-    margin-top: 0px;
 }
 .video-container video {
     border-radius: 10px; /* rounded corners */
