@@ -141,6 +141,7 @@ nav ul li a:hover {
     width: 100%;
     height: 100%;
     border-radius: 10px; /* rounded corners */
+    object-fit: contain;
 }
 .text-container, .header, .header h1, .github2, .text-container p, .text-container p span {
     background-color: #141414; /* backgroud */
@@ -253,8 +254,6 @@ nav ul li a:hover {
     .video-container {
         max-width: 434.8px;
         max-height: 243.5px;
-        width: 85%;
-        height: 85%;
     }
     .text-container {
         width: 85%;
@@ -331,8 +330,6 @@ nav ul li a:hover {
     .video-container {
         max-width: 383.6px;
         max-height: 214.9px;
-        width: 75%;
-        height: 75%;
     }
     .text-container {
         width: 75%;
