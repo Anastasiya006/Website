@@ -253,14 +253,14 @@ nav ul li a:hover {
     }
     .video-container {
         width: 85%;
-        height: 85%;
+        height: auto;
     }
     .video-container video {
         object-fit: contain;
     }
     .text-container {
         width: 85%;
-        height: 85%;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center; 
@@ -332,14 +332,14 @@ nav ul li a:hover {
     }
     .video-container {
         width: 75%;
-        height: 75%;
+        height: auto%;
     }
     .video-container video {
         object-fit: contain;
     }
     .text-container {
         width: 75%;
-        height: 75%;
+        height: auto%;
         display: flex;
         flex-direction: column;
         justify-content: center; 
