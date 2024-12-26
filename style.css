@@ -139,6 +139,8 @@ nav ul li a:hover {
 }
 .video-container video {
     width: 100%;
+    max-width: 511.5px;
+    max-height: 286.5px;
     height: 100%;
     border-radius: 10px; /* rounded corners */
 }
@@ -250,7 +252,7 @@ nav ul li a:hover {
         align-items: center;
         gap: 60px;
     }
-    .video-container {
+    .video-container, .video-container video {
         max-width: 434.8px;
         max-height: 243.5px;
         width: 85%;
@@ -328,7 +330,7 @@ nav ul li a:hover {
         margin-top: 60px;
         gap: 40px;
     }
-    .video-container {
+    .video-container, .video-container video {
         max-width: 383.6px;
         max-height: 214.9px;
         width: 75%;
