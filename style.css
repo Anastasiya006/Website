@@ -252,8 +252,11 @@ nav ul li a:hover {
         gap: 60px;
     }
     .video-container {
-        max-width: 434.8px;
-        max-height: 243.5px;
+        width: 85%;
+        height: 85%;
+    }
+    .video-container video {
+        object-fit: contain;
     }
     .text-container {
         width: 85%;
@@ -328,8 +331,11 @@ nav ul li a:hover {
         gap: 40px;
     }
     .video-container {
-        max-width: 383.6px;
-        max-height: 214.9px;
+        width: 75%;
+        height: 75%;
+    }
+    .video-container video {
+        object-fit: contain;
     }
     .text-container {
         width: 75%;
