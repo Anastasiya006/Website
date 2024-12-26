@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,7 +11,23 @@
     color: #141414; /* text */
 }
 
-body {
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 30px 15px;
+} 
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    color: #93bea4;
 }
 
 #header {
@@ -27,9 +47,6 @@ body {
 .header-description {
     font-size: 25px;
     margin-bottom: 60px;
-}
-.header-description a {
-    color: #c2a0e8;
 }
 .flowers {
     width: 550px;
@@ -52,7 +69,6 @@ body {
     border: none;
     cursor: pointer;
     transition: transform 0.3s ease, background-image 0.3s ease;
-    padding: 0; 
 }
 .button:last-child {
     margin-right: 0; /* no right margin on the last button */
@@ -95,25 +111,6 @@ body {
       transform: translateY(-20px);
     }
 }
-  
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 30px 15px;
-} 
-nav ul li a {
-    text-decoration: none;
-    font-size: 18px;
-}
-nav ul li a:hover {
-    color: #93bea4;
-}
 
 #projects {
     background-color: #141414; /* backgroud */
@@ -125,11 +122,10 @@ nav ul li a:hover {
 .byte-buddy, .jagame, .pokepop, .heaven-and-hell {
     background-color: #141414; /* backgroud */
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 70px;
     margin-top: 70px;
     margin-bottom: 20px;
+    
 }
 .video-container {
     flex: 1;
@@ -142,32 +138,54 @@ nav ul li a:hover {
 .video-container video {
     border-radius: 10px; /* rounded corners */
 }
-.text-container {
+.text-container, .header, .header h1, .github2, .text-container p, .text-container p span {
     background-color: #141414; /* backgroud */
+    color: #FAF9F6;
+}
+.text-container {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: flex-start; 
     align-items: flex-start;
+    width: 415px;
+    height: 286.5px;
 }
-.text-container h1 {
-    background-color: #141414; /* backgroud */
-    color: #FAF9F6;
+.header {
+    display: flex; 
+    gap: 20px;
+}
+.header h1 {
     margin-bottom: 20px;
+    font-size: 35px;
 }
-.text-container p {
-    background-color: #141414; /* backgroud */
-    color: #FAF9F6;
-    margin-bottom: 5px;
+.github2 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-image 0.3s ease;
+    background-image: url("assets/buttons/github2.png");
+}
+.github2:hover {
+    transform: scale(1.1);
 }
 .text-container p span {
-    background-color: #141414; /* backgroud */
     color: #93bea4;
 }
+.date {
+    font-size: 18px;
+}
 .description {
-    background-color: #141414; /* backgroud */
-    color: #FAF9F6;
-    margin-top: 130px;
+    font-size: 16px;
+    margin-top: 150px;
+    margin-bottom: 5px;
 }
 
 @keyframes glow {
@@ -186,8 +204,8 @@ nav ul li a:hover {
     background-color: #141414; /* backgroud */
     display: grid;
     place-items: center;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 .footer-title h1 {
     background-color: #141414; /* backgroud */
@@ -197,6 +215,5 @@ nav ul li a:hover {
 }
 .footer-title h1 span {
     background-color: #141414; /* backgroud */
-    color: #FAF9F6; /* text */
     color: #c2a0e8;
 }
