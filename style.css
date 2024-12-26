@@ -325,7 +325,11 @@ nav ul li a:hover {
     .text-container {
         width: 75%;
         height: 75%;
-        align-items: center;
+        align-items: center; 
+        text-align: center;
+    }
+    .text-container p, .text-container h1 {
+        text-align: center;
     }
     .header {
         gap: 18px;
