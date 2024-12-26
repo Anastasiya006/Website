@@ -329,8 +329,8 @@ nav ul li a:hover {
         gap: 40px;
     }
     .video-container {
-        /* max-width: 383.6px;
-        max-height: 214.9px; */
+        max-width: 383.6px;
+        max-height: 214.9px;
         width: 75%;
         height: 75%;
     }
