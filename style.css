@@ -256,6 +256,8 @@ nav ul li a:hover {
         height: auto;
     }
     .video-container video {
+        max-width: 434.8px;
+        max-height: 243.5px;
         object-fit: contain;
     }
     .text-container {
@@ -332,14 +334,16 @@ nav ul li a:hover {
     }
     .video-container {
         width: 75%;
-        height: auto%;
+        height: auto;
     }
     .video-container video {
+        max-width: 383.6px;
+        max-height: 214.9;
         object-fit: contain;
     }
     .text-container {
         width: 75%;
-        height: auto%;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center; 
