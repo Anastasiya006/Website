@@ -49,6 +49,7 @@ nav ul li a:hover {
     margin-bottom: 60px;
 }
 .flowers {
+    width: 550px;
     margin-bottom: 60px;
 }
 .buttons-container {
@@ -236,7 +237,7 @@ nav ul li a:hover {
         font-size: 20px;
     }
     .flowers {
-        width: 72%;
+        width: 400px;
         margin-bottom: 60px;
     }
     .button {
@@ -316,7 +317,7 @@ nav ul li a:hover {
         font-size: 16px;
     }
     .flowers {
-        width: 50%;
+        width: 280px;
         margin-bottom: 60px;
     }
     .button {
