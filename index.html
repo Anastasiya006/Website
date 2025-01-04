@@ -3,15 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio Website for Anastasiya Volgina">
   <title>anastasiya volgina</title>
-  <link rel="icon" href="assets/icon.png" type="image/x-icon" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-  <link rel="stylesheet" href="style.css"> 
+  <link rel="icon" href="assets/icon.png" type="image/x-icon"/>
+
+  <!-- preconnect to external domains for faster connection -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+
+  <!-- preload the critical Google Font -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" as="style">
+
+  <!-- load the main CSS file with deferred loading -->
+  <link rel="stylesheet" href="style.css" media="none" onload="this.media='all'">
 </head>
 <body>
     <div id="header">
@@ -40,28 +44,31 @@
             <p>University of Waterloo <span>CE 1B</span></p>
         </div>
 
-        <img src="assets/flowers.png" class="flowers"/>
+        <img src="assets/flowers.png" alt="Clipart of purple flowers" class="flowers"/>
 
         <!-- buttons -->
         <div class="button-container">
-            <a
-                href="https://github.com/Anastasiya006"
-                target="_blank"
-                class="button github"
-            ></a>
-            <a
-                href="https://linkedin.com/in/anastasiya-volgina"
-                target="_blank"
-                class="button linkedin"
-            ></a>
-            <a
-                href="mailto:avolgina@uwaterloo.ca"
-                target="_blank"
-                class="button email"
-            ></a>
-        </div> 
+          <a
+              href="https://github.com/Anastasiya006"
+              target="_blank"
+              class="button github"
+              aria-label="Visit GitHub profile"
+          ></a>
+          <a
+              href="https://linkedin.com/in/anastasiya-volgina"
+              target="_blank"
+              class="button linkedin"
+              aria-label="Visit LinkedIn profile"
+          ></a>
+          <a
+              href="mailto:avolgina@uwaterloo.ca"
+              target="_blank"
+              class="button email"
+              aria-label="Send an email"
+          ></a>
+      </div>      
 
-        <div class="bounce-arrow">↓</div>
+      <div class="bounce-arrow">↓</div>
     </div>
 
     <div id="projects">
@@ -78,6 +85,7 @@
                 href="https://github.com/Anastasiya006/Byte-Buddy"
                 target="_blank"
                 class="button github2"
+                aria-label="Visit Byte Buddy GitHub Page"
             ></a>
           </div>
           <div class="date">
@@ -104,6 +112,7 @@
                 href="https://github.com/Anastasiya006/Jagame"
                 target="_blank"
                 class="button github2"
+                aria-label="Visit Jagame GitHub Page"
             ></a>
           </div>
           <div class="date">
@@ -129,6 +138,7 @@
                 href="https://github.com/Anastasiya006/Poke-Pop"
                 target="_blank"
                 class="button github2"
+                aria-label="Visit Poké-Pop GitHub Page"
             ></a>
           </div>
           <div class="date">
@@ -154,6 +164,7 @@
                 href="https://github.com/Anastasiya006/Heaven-and-Hell-Game"
                 target="_blank"
                 class="button github2"
+                aria-label="Visit Heaven and Hell GitHub Page"
             ></a>
           </div>
           <div class="date">
