@@ -6,4 +6,4 @@ This repository hosts the source code, built with HTML and CSS, for my personal 
 
 ## Credits
 - **Design and Developementt**: [Anastasiya006](https://github.com/Anastasiya006)
-- **Clipart**: Canva
+- **Clipart**: [Canva](https://www.canva.com/)
